@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon",
     "prod": "pm2 start src/loader.js --name todo-app",
-    "mongo-win": "md mongo-db & \"C:/Program Files/MongoDb/Server/4.0/bin/mongod.exe\" --dbpath mongo-db"
+    "db": "md mongo-db & \"C:/Program Files/MongoDb/Server/4.0/bin/mongod.exe\" --dbpath mongo-db"
   },
   "keywords": [],
   "author": "",
